@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-const Body = () => {
+const Home = () => {
   return (
     <div>
         
@@ -8,4 +8,4 @@ const Body = () => {
   )
 }
 
-export default Body
+export default Home

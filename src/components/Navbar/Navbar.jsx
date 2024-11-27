@@ -4,7 +4,7 @@ import button_luz from '../../assets/night.png'
 import button_dark from '../../assets/day.png'
 import "./style.css"
 
-const navBar = ({tema, setTema}) => {
+const Navbar = ({tema, setTema}) => {
   const mudar_fundo = () => {
     tema == 'dark' ? setTema('ligth') : setTema('dark');
     
@@ -41,5 +41,5 @@ const navBar = ({tema, setTema}) => {
   )
 }
 
-export default navBar
+export default Navbar
 

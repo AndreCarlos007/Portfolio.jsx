@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Navbar from './components/Navbar/navbar'
+import Navbar from './components/Navbar/navbar.jsx'
 
 function App() {
   const salvar_tema = localStorage.getItem('salvar_tema')

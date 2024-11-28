@@ -1,3 +1,7 @@
+    * {
+        z-index: inherit;
+    }
+    
 .ligth #container {
     color: #0a0a0a;
     
@@ -7,6 +11,7 @@
 }
 .ligth #cv:hover {
     background-color: black;
+    color: white;
 }
 #astro {
     background-image: none;

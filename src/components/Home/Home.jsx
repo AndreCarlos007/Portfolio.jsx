@@ -7,12 +7,12 @@ import linkedin from '../../assets/linkedin.png'
 
 const Home = () => {
   return (
-    <div className='flex flex-col-reverse md:flex-row justify-around items-center py-24 px-[5%] '>
-      <div id='container' className='text-[#ffffff] text-center md:text-left md:max-w-[45vw]'>
+    <div className='flex flex-col-reverse md:flex-row justify-around items-center py-24 px-[5%] 2xl:px-[10%] overflow-hidden'>
+      <div id='container' className='text-[#ffffff] text-center md:text-left md:max-w-[45vw] 2xl:max-w-[40vw]'>
         <span className='text-[#767575] text-xl'>Software Developer | Front-end Developer</span>
-        <h1 className='text-[3rem] md:text-[3.5rem] font-bold mt-4'>Hello I'm</h1>
-        <h1 className="text-[3rem] md:text-[3.5rem] font-bold text-[#0086B0]">André Carlos</h1>
-        <p className='text-[1rem] text-justify mt-4 md:max-w-[35vw] mx-auto'>
+        <h1 className='text-[3rem] md:text-[3.5rem] 2xl:text-[4rem] font-bold mt-4'>Hello I'm</h1>
+        <h1 className="text-[3rem] md:text-[3.5rem] 2xl:text-[4rem] font-bold text-[#0086B0]">André Carlos</h1>
+        <p className='text-[1rem] text-justify mt-4 md:max-w-[35vw] mx-auto 2xl:max-w-[30vw]'>
           I create digital solutions that prioritize both aesthetics and usability. 
           My portfolio showcases a variety of projects that demonstrate my expertise
           in diverse technologies and innovative design approaches.
@@ -26,7 +26,7 @@ const Home = () => {
       </div>
 
       <div className='flex justify-center items-center mt-8 md:mt-0'>
-        <img id='astro' className='w-[18rem] md:w-[23rem] lg:w-[25rem] ' src={Astro} alt="astro" />
+        <img id='astro' className='w-[18rem] md:w-[23rem] lg:w-[25rem] 2xl:w-[30rem]' src={Astro} alt="astro" />
       </div>
     </div>
   )

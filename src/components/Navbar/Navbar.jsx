@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import pesquisa_icon_dark from '../../assets/search-w.png'
 import button_luz from '../../assets/night.png'
 import button_dark from '../../assets/day.png'
 import menu_aberto from '../../assets/menu_white_36dp.svg'
@@ -36,7 +35,7 @@ const menuIcon = tema === 'ligth'
         <li>Serviços</li>
         <li>Resumo</li>
         <li>Projetos</li>
-        <li className='form-contato'>Contate-me</li>
+        <li className='form-contato '>Contate-me</li>
       </ul>
       <div >
         <ul onClick={fecharMenu} className={`mobile_menu ${aberto ? 'open' : ''}`}>

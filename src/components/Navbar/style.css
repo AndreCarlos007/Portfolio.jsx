@@ -1,16 +1,18 @@
+
+
 .navbar {
-    
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 5%;
+    padding: 25px 5%;
     transition: 0.5s;
 }
 .logo{
     width: 160px;
     cursor: pointer;
-    color: #0086B0;
+    color: #ffffff;
     font-size: 2.5rem;
+    font: bold;
 }
 .ligth .logo {
     color: #0a0a0a;
@@ -22,13 +24,14 @@ ul {
 }
 ul li {
     display: inline-block;
-    font-size: 1.10rem;
+    font-size: 1.2rem;
     margin: 10px 15px;
     cursor: pointer;
     color: #ffffff;
+    font: bold;
 }
 ul li:hover {
-    color: #0086B0;
+    color: rgb(0, 134, 176);
     border-bottom: 1px solid #0086B0;
 
 }
@@ -42,7 +45,7 @@ ul li:hover {
 }
 
 .form-contato {
-    color: #242424;
+    color: #ffffff;
     background-color: #0086B0;
     padding: 0.6rem;
     border-radius: 18px;
@@ -50,7 +53,7 @@ ul li:hover {
     border-left: 3px solid #ffffff;
 }
 .form-contato:hover {
-    background-color: #277a946e;
+    background-color: #ffffff;
     border-bottom: 3px solid #ffffff00;
     border-left: 3px solid #ffffff00;
     color: #0a0a0a;
@@ -60,8 +63,8 @@ ul li:hover {
     border-left: 3px solid #0a0a0a;
 }
 .ligth .form-contato:hover {
-    color: #0a0a0a;
-    background-color: #085369;
+    color: #ffffff;
+    background-color: #0a0a0a;
     border-bottom: 3px solid #0a0a0a00;
     border-left: 3px solid #0a0a0a00;
 }
@@ -72,8 +75,6 @@ ul li:hover {
     margin-left: 2rem;
     
 }
-
-
 /* navbar cell */
 .mobile_menu {
     display: none;
@@ -83,7 +84,6 @@ ul li:hover {
 }
 
 /* Espaço para deixar responsivo e adaptativo */
-
 @media (max-width: 523px) {
     .pesquisa {
         display: none;

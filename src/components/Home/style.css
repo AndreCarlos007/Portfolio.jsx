@@ -1,0 +1,30 @@
+.ligth #container {
+    color: #0a0a0a;
+    
+}
+.ligth #cv {
+    background-color: #0086B0;
+}
+.ligth #cv:hover {
+    background-color: black;
+}
+#astro {
+    background-image: none;
+    animation: flutuar 4s ease-in-out infinite;
+    padding: 0px;
+}
+
+@keyframes flutuar {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateY(-15px);
+       
+    }
+    100% {
+        transform: translateX(0px);
+
+    }
+}
+

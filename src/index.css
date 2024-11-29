@@ -8,9 +8,10 @@
   padding: 0;
   box-sizing: border-box;
   font-family: JetsBrains Mono, monospace;
-  background: #0a0a0a;
+  background-color: #0a0a0a;
   transition: 0.5s;
+
 }
 .ligth * {
-  background: white;
+  background-color: #ffffff;
 }

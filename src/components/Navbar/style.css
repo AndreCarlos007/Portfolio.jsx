@@ -7,6 +7,7 @@
     transition: 0.5s;
     z-index: 1;
     user-select: none;
+    width: 100vw;
 }
 .logo{
     width: 160px;
@@ -102,7 +103,7 @@ ul li:hover {
         text-align: center;
         padding-bottom: 1rem;
         width: 100vw;
-        position: fixed;
+        position: absolute;
        top: 5rem;
        left: 0;
     }

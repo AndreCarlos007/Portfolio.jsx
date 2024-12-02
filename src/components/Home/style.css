@@ -17,6 +17,7 @@
     background-image: none;
     animation: flutuar 3s ease-in-out infinite;
     padding: 0px;
+    pointer-events: none;
 }
 
 @keyframes flutuar {
@@ -32,4 +33,33 @@
 
     }
 }
+
+@media (min-width: 375px) {
+    #ola {
+        width: 13ch;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: digitando 2s steps(13), piscando 0.5s infinite step-end;
+    }
+    #nome {
+        border-right: 4px solid #0086B0;
+        width: 13ch;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: digitando 3.5s steps(13) infinite, piscando 0.5s;
+    }
+    
+    @keyframes digitando {
+        from {
+            width: 0;
+        }
+    }
+    @keyframes piscando {
+        50% {
+            border-color: transparent;
+        }
+    }
+    
+}
+
 

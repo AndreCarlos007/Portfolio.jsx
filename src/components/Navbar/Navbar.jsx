@@ -1,4 +1,7 @@
 import React, { useState } from 'react'
+
+import { Link } from 'react-router-dom'
+
 import button_luz from '../../assets/night.png'
 import button_dark from '../../assets/day.png'
 import menu_aberto from '../../assets/menu_white_36dp.svg'
@@ -29,21 +32,23 @@ const menuIcon = tema === 'ligth'
 
   return (
     <div className='navbar'>
-      <h1 className='logo'>André .</h1>
+      <h1 className='logo'><Link to="/">André .</Link></h1>
       <ul className='nav-item'>
-        <li>Home</li>
-        <li>Serviços</li>
-        <li>Resumo</li>
-        <li>Projetos</li>
-        <li className='form-contato '>Contate-me</li>
+        <li> <Link to="/">Home</Link ></li>
+        <li><Link to="/Resume">Resume</Link></li>
+        <li><Link to="/Services">Services</Link></li>
+        <li><Link to="/Projects">Projects</Link></li>
+        <Link className='form-contato' to="/Contact">Contact</Link>
       </ul>
+
+      {/* MENU PARA TELAS MENORES COMO TABLET, CELULAR etc. */}
       <div >
         <ul onClick={fecharMenu} className={`mobile_menu ${aberto ? 'open' : ''}`}>
-          <li> Home</li>
-          <li>Serviços</li>
-          <li>Resumo</li>
-          <li>Projetos</li>
-          <li className='form-contato'>Contate-me</li>
+        <li> <Link to="/">Home</Link ></li>
+        <li><Link to="/Resume">Resume</Link></li>
+        <li><Link to="/Services">Services</Link></li>
+        <li><Link to="/Projects">Projects</Link></li>
+        <Link className='form-contato' to="/Contact">Contact</Link>
         </ul>
       </div>
 

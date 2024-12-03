@@ -50,10 +50,12 @@ ul li:hover {
 .form-contato {
     color: #ffffff;
     background-color: #0086B0;
-    padding: 0.6rem;
+    padding: 0.7rem;
     border-radius: 18px;
     border-bottom: 3px solid #ffffff;
     border-left: 3px solid #ffffff;
+    font-size: 1.2rem;
+    font: bold;
 }
 .form-contato:hover {
     background-color: #ffffff;

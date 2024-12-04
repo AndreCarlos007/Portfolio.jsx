@@ -1,4 +1,5 @@
 import React from 'react'
+import transition from '../../transition'
 
 const Resumo = () => {
   return (
@@ -10,4 +11,4 @@ const Resumo = () => {
   )
 }
 
-export default Resumo
+export default transition(Resumo);

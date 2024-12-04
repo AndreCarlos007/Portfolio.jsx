@@ -1,4 +1,5 @@
 import React from 'react'
+import transition from '../../transition'
 
 const Projects = () => {
   return (
@@ -8,4 +9,4 @@ const Projects = () => {
   )
 }
 
-export default Projects
+export default transition(Projects);

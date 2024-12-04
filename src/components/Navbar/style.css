@@ -4,7 +4,6 @@
     align-items: center;
     justify-content: space-between;
     padding: 25px 5%;
-    transition: 0.5s;
     z-index: 1;
     user-select: none;
     width: 100vw;
@@ -35,7 +34,6 @@ ul li {
 }
 ul li:hover {
     color: rgb(0, 134, 176);
-    border-bottom: 1px solid #0086B0;
 
 }
 
@@ -44,7 +42,6 @@ ul li:hover {
 }
 .ligth ul li:hover {
     color: #0086B0;
-    border-bottom: 1px solid #0086B0;
 }
 
 .form-contato {

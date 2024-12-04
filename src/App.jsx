@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import {Routes, Route, useLocation} from "react-router-dom"
+import { AnimatePresence } from 'framer-motion';
 
 import Navbar from './components/Navbar/Navbar.jsx'
 import Home from './components/Home/Home.jsx';
@@ -22,7 +23,8 @@ function App() {
       <div className={`container ${tema}`}>
         <Navbar tema={tema} setTema={setTema}/>
 
-          <Routes location={location} key={location.pathname}>
+        <AnimatePresence mode="wait">
+        <Routes location={location} key={location.pathname}>
               <Route index element={ <Home />} />
               <Route path='/Resume' element={ <Resume /> }/>
               <Route path='/Services' element={ <Services /> }/>
@@ -30,6 +32,7 @@ function App() {
               <Route path='/Contact' element={ <Contact /> }/>
               <Route />
           </Routes>
+        </AnimatePresence>
       </div>
   )
 }

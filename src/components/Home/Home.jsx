@@ -1,13 +1,16 @@
 import React from 'react'
-import Astro from '../../assets/astro2.0.png'
 import './style.css'
+
+import Astro from '../../assets/astro2.0.png'
 import whatz from '../../assets/whatsapp.png'
 import github from '../../assets/github.png'
 import linkedin from '../../assets/linkedin.png'
 
+import transition from '../../transition'
+
 const Home = () => {
   return (
-    <div className='flex flex-col-reverse md:flex-row justify-between items-center pb-[6rem] px-[5%] w-[100vw] md:h-[calc(100vh-100px)] md:pt-[100px] xl:h-[calc(100vh-121px)]'>
+    <div className='flex flex-col-reverse md:flex-row justify-between items-center pb-[6rem] px-[5%] w-[100vw] md:h-[calc(100vh-100px)] md:pt-[100px] xl:h-[calc(100vh-110px)]'>
       <div id='container' className='text-[#ffffff] text-center md:text-left md:max-w-[45vw]'>
         <span className='text-[#767575] text-xl'>Software Developer | Front-end Developer</span>
         <h1 id='ola' className='text-[3rem] md:text-[3.5rem] font-bold'>Hello I'm</h1>
@@ -20,7 +23,7 @@ const Home = () => {
         </p>
         </div>
         <div className='flex gap-10 mt-12 justify-center md:justify-start'>
-          <a id='cv' className='font-bold border-solid border-2 text-[white] border-[#0086B0] p-2 rounded-2xl bg-[#0086B0] hover:bg-white hover:text-[black]' href="">CURRICULUM</a>
+          <a id='cv' className='font-bold  text-[white] p-2 rounded-2xl bg-[#0086B0] hover:bg-white hover:text-[black]' href="">CURRICULUM</a>
           <a href="https://www.linkedin.com/in/andr%C3%A9-carloscx/"><img className='w-10' src={linkedin} alt="linkedin" /></a>
           <a href="https://github.com/AndreCarlos007"><img className='w-10' src={github} alt="github" /></a>
           <a href=""><img className='w-10' src={whatz} alt="whatsapp" /></a>
@@ -34,4 +37,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default transition(Home);

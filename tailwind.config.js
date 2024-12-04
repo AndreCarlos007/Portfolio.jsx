@@ -9,9 +9,8 @@ module.exports = {
       'sm': '640px',     // Breakpoint padrão para telas pequenas
       'md': '768px',     // Breakpoint padrão para telas médias
       'lg': '1024px',    // Breakpoint padrão para telas grandes
-      'xl': '1280px',    // Breakpoint para telas extra grandes
+      'xl': '1400px',    // Breakpoint para telas extra grandes
       '2xl': '1536px',   // Breakpoint para telas maiores
-      '3xl': '1400px',   // Novo breakpoint personalizado até 1400px
     },
     extend: {},
   },

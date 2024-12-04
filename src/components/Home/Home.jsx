@@ -10,13 +10,13 @@ import transition from '../../transition'
 
 const Home = () => {
   return (
-    <div className='flex flex-col-reverse md:flex-row justify-between items-center pb-[6rem] px-[5%] w-[100vw] md:h-[calc(100vh-100px)] md:pt-[100px] xl:h-[calc(100vh-110px)]'>
+    <div className='flex flex-col-reverse md:flex-row justify-between items-center pb-[6rem] px-[5%] w-[100vw] md:h-[calc(100vh-100px)] md:pt-[100px] lg:h-[calc(100vh-110px)] 2xl:justify-around'>
       <div id='container' className='text-[#ffffff] text-center md:text-left md:max-w-[45vw]'>
         <span className='text-[#767575] text-xl'>Software Developer | Front-end Developer</span>
         <h1 id='ola' className='text-[3rem] md:text-[3.5rem] font-bold'>Hello I'm</h1>
-        <h1 id='nome' className="text-[3rem] md:text-[3.5rem] font-bold text-[#0086B0]">André Carlos</h1>
+        <h1 id='nome' className="text-[3rem] md:text-[3rem] font-bold text-[#0086B0]">André Carlos</h1>
         <div>
-        <p className='text-[1rem] text-justify mt-4 md:max-w-[35vw] mx-auto'>
+        <p className='text-[1rem] text-justify mt-4 md:max-w-[45vw] mx-auto'>
           I create digital solutions that prioritize both aesthetics and usability. 
           My portfolio showcases a variety of projects that demonstrate my expertise
           in diverse technologies and innovative design approaches.

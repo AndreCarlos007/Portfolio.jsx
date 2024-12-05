@@ -2,6 +2,9 @@
         z-index: inherit;
     }
     
+#home {
+    padding: 25px 5%;
+}
 .ligth #container {
     color: #0a0a0a;
     

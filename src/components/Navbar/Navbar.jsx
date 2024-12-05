@@ -31,10 +31,10 @@ const menuIcon = tema === 'ligth'
 
   return (
     <div className='navbar'>
-      <h1 className='logo'><Link to="/">André .</Link></h1>
+      <h1 className='logo'><Link to="/">André.</Link></h1>
       <ul className='nav-item'>
         <li> <Link to="/">Home</Link ></li>
-        <li><Link to="/Resume">Resume</Link></li>
+        <li><Link to="/Resume">About</Link></li>
         <li><Link to="/Services">Services</Link></li>
         <li><Link to="/Projects">Projects</Link></li>
         <Link className='form-contato' to="/Contact">Contact</Link>
@@ -44,7 +44,7 @@ const menuIcon = tema === 'ligth'
       <div >
         <ul onClick={fecharMenu} className={`mobile_menu ${aberto ? 'open' : ''}`}>
         <li> <Link to="/">Home</Link ></li>
-        <li><Link to="/Resume">Resume</Link></li>
+        <li><Link to="/Resume">About</Link></li>
         <li><Link to="/Services">Services</Link></li>
         <li><Link to="/Projects">Projects</Link></li>
         <Link className='form-contato' to="/Contact">Contact</Link>

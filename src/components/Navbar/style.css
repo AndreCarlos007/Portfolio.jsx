@@ -30,7 +30,8 @@ ul li {
     margin: 10px 15px;
     cursor: pointer;
     color: #ffffff;
-    font: bold;
+    font-weight: 300;
+    
 }
 ul li:hover {
     color: rgb(0, 134, 176);
@@ -52,7 +53,7 @@ ul li:hover {
     border-bottom: 3px solid #ffffff;
     border-left: 3px solid #ffffff;
     font-size: 1.2rem;
-    font: bold;
+    
 }
 .form-contato:hover {
     background-color: #ffffff;
@@ -87,9 +88,6 @@ ul li:hover {
 
 /* Espaço para deixar responsivo e adaptativo */
 @media (max-width: 523px) {
-    .pesquisa {
-        display: none;
-    }
     .nav-item {
         display: none;
     }

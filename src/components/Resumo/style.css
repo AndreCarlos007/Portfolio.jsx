@@ -1,0 +1,25 @@
+.ligth #title-about {
+    color: #0f0f0fd4;
+}
+.ligth #bio {
+    color: #0f0f0f7a;
+}
+.ligth #one-project {
+    color: #0f0f0f;
+}
+.ligth  #years-xp {
+    color: #0f0f0f;
+}
+.ligth #text-one {
+    color: #0f0f0f;
+}
+.ligth #text-two {
+    color: #0f0f0f;
+}
+
+#container-about {
+    padding: 0px 5%;
+}
+#bloco-bio {
+    padding: 25px 5%;
+}

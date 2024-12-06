@@ -4,7 +4,7 @@ import "./style.css"
 
 const Resumo = () => {
   return (
-    <div className=''>
+    <div className='h-[calc(100vh-150px)]'>
         <div>
             <h1 id='title-about' className='flex items-center justify-center w-screen text-center mb-10 text-[#F5F5F5]  font-bold text-5xl mt-10'>Passion, Fuels and Pupose!</h1>
         </div>

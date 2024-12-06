@@ -14,13 +14,14 @@ function App() {
   const salvar_tema = localStorage.getItem('salvar_tema')
   const [tema, setTema] = useState(salvar_tema ? salvar_tema : 'dark')
   useEffect(()=> {
+    document.body.classname = tema;
     localStorage.setItem('salvar_tema', tema)
   },[tema]);
   
   const location = useLocation();
 
   return (
-      <div className={`container ${tema}`}>
+      <div className={`${tema}`}>
         <Navbar tema={tema} setTema={setTema}/>
 
         <AnimatePresence mode="wait">
@@ -30,7 +31,6 @@ function App() {
               <Route path='/Services' element={ <Services /> }/>
               <Route path='/Projects' element={ <Projects /> }/>
               <Route path='/Contact' element={ <Contact /> }/>
-              <Route />
           </Routes>
         </AnimatePresence>
       </div>
